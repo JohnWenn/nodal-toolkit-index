@@ -1,7 +1,7 @@
 import {readFile,writeFile,rename,mkdir} from 'node:fs/promises';
 import {pathToFileURL} from 'node:url';
 import {resolve,sep} from 'node:path';
-import {githubRepo,repoRecord,registryRecord,mergeRecord,identify,DATA_LICENSE} from './normalize.mjs';
+import {githubRepo,repoRecord,registryRecord,mergeRecord,identify,metadataQueue,DATA_LICENSE} from './normalize.mjs';
 const data=process.env.NODAL_INDEX_DATA_DIR?pathToFileURL(resolve(process.env.NODAL_INDEX_DATA_DIR)+sep):new URL('./data/',import.meta.url);await mkdir(data,{recursive:true});
 const read=async(name,fallback)=>{try{return JSON.parse(await readFile(new URL(name,data),'utf8'))}catch(e){if(e.code==='ENOENT')return fallback;throw e}};
 const previous=await read('catalog.json',{resources:[],history:[],runs:[]});const state=await read('state.json',{mcp:{},awesomePage:1});
@@ -45,15 +45,15 @@ await source('GitHub Discovery',async()=>{
   const result=await get(url,true);if(!Array.isArray(result.items))throw Error('GitHub search schema changed');for(const r of result.items){put(repoRecord(r,'GitHub',at));count++}
  }return{count};
 });
-const candidates=[...new Set([...seeds,...[...records.values()].filter(r=>r.repo).sort((a,b)=>String(a.metadataCheckedAt||'').localeCompare(String(b.metadataCheckedAt||''))).map(r=>r.repo)])].slice(0,45);
+const candidates=metadataQueue(seeds,[...records.values()]);
 await source('Repository Metadata',async()=>{
  let count=0;const failures=[];
  for(const repo of candidates){
   let r,origin='GitHub';const old=records.get(identify(repo));
-  try{if(!githubAvailable)throw Error('GitHub quota deferred');r=await get('https://api.github.com/repos/'+repo,true)}catch(e){if(/403|429/.test(e.message))githubAvailable=false;try{r=await get('https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/'+encodeURIComponent(repo));origin='Ecosyste.ms'}catch(fallback){failures.push(repo+': '+fallback.message);if(old)records.set(old.id,{...old,metadataError:fallback.message});continue}}
+  try{if(!githubAvailable)throw Error('GitHub quota deferred');r=await get('https://api.github.com/repos/'+repo,true)}catch(e){if(/403|429/.test(e.message))githubAvailable=false;try{r=await get('https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/'+encodeURIComponent(repo));origin='Ecosyste.ms'}catch(fallback){failures.push(repo+': '+fallback.message);if(old)records.set(old.id,{...old,metadataAttemptedAt:at,metadataError:fallback.message});continue}}
   const record=repoRecord(r,origin,at);if(!record){failures.push(repo+': invalid metadata');continue}
   if(record.stars===null){failures.push(repo+': invalid star count');continue}
-  record.metadataCheckedAt=at;record.metadataError=null;record.upstreamSyncedAt=r.last_synced_at||at;put(record);count++;
+  record.metadataCheckedAt=at;record.metadataAttemptedAt=at;record.metadataError=null;record.upstreamSyncedAt=r.last_synced_at||at;put(record);count++;
  }
  if(!count)throw Error('No repository metadata could be refreshed');return{count,partialErrors:failures.slice(0,8)};
 });

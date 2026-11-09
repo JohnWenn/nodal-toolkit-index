@@ -5,6 +5,10 @@ export function githubRepo(value){
 }
 export function safeUrl(value){try{const u=new URL(value);return u.protocol==='https:'&&!u.username&&!u.password&&!['localhost','127.0.0.1','::1'].includes(u.hostname)?u.href:null}catch{return null}}
 export const text=(value,max=280)=>typeof value==='string'?value.replace(/[\u0000-\u001f]/g,' ').trim().slice(0,max):'';
+export function metadataQueue(seeds,rows){
+ const rotating=rows.filter(r=>r.repo).sort((a,b)=>String(a.metadataAttemptedAt||a.metadataCheckedAt||'').localeCompare(String(b.metadataAttemptedAt||b.metadataCheckedAt||'')));
+ return [...new Set([...seeds,...rotating.map(r=>r.repo)])].slice(0,45);
+}
 export function identify(repo,url){return 'r-'+createHash('sha256').update(repo?'github:'+repo.toLowerCase():url).digest('hex').slice(0,16)}
 export function classify(topics=[]){
  const s=topics.join(' ').toLowerCase();
