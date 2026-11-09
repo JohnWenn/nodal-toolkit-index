@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T09:42:42.540Z",
+  "generatedAt": "2026-11-09T10:28:14.892Z",
   "license": "CC-BY-SA-4.0",
   "attribution": [
     "Ecosyste.ms Awesome / Repos — CC BY-SA 4.0",
@@ -213,20 +213,24 @@
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/optimnow/cloud-finops-skills",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
       "security": "not-audited",
       "firstSeenAt": "2026-11-09T09:42:42.540Z",
-      "mcpServers": []
+      "mcpServers": [],
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z",
+      "metadataError": null,
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z"
     },
     {
       "id": "r-0349b84862e2654d",
@@ -403,7 +407,8 @@
           ]
         }
       ],
-      "metadataError": "HTTP 404; repos.ecosyste.ms"
+      "metadataError": "HTTP 404; repos.ecosyste.ms",
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z"
     },
     {
       "id": "r-040f4483500a1133",
@@ -791,21 +796,19 @@
       "id": "r-056869601f3d28df",
       "repo": "boolsai-ai/mcp",
       "url": "https://github.com/boolsai-ai/mcp",
-      "name": "Boolsai Signals",
-      "summary": "Quant-research MCP — tradeable signals from public-company website stack changes. 7 tools.",
+      "name": "mcp",
+      "summary": "",
       "type": "MCP",
-      "classification": "MCP 官方注册表类型；不代表安全审计",
-      "tags": [
-        "MCP"
-      ],
-      "license": null,
-      "stars": null,
-      "updatedAt": "2026-05-19T13:30:36.922608Z",
+      "classification": "按上游主题自动分类，未人工核验",
+      "tags": [],
+      "license": "MIT",
+      "stars": 1,
+      "updatedAt": "2026-05-19T13:30:20Z",
       "version": "1.0.0",
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
-      "descriptionOrigin": "MCP Registry",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "MCP Registry",
@@ -830,6 +833,12 @@
           "url": "https://registry.modelcontextprotocol.io/v0.1/servers/ai.boolsai%2Fsignals/versions/1.0.0",
           "checkedAt": "2026-11-09T09:42:42.540Z",
           "license": "上游元数据 · 原项目许可另查"
+        },
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/boolsai-ai/mcp",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
@@ -884,7 +893,11 @@
           ]
         }
       ],
-      "firstSeenAt": "2026-11-09T09:42:42.540Z"
+      "firstSeenAt": "2026-11-09T09:42:42.540Z",
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z",
+      "metadataError": null,
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z"
     },
     {
       "id": "r-06fa49f208ca5d4b",
@@ -1019,6 +1032,43 @@
       ]
     },
     {
+      "id": "r-08bda02f4ce4f68f",
+      "repo": "agentscope-ai/qwenpaw",
+      "url": "https://github.com/agentscope-ai/qwenpaw",
+      "name": "QwenPaw",
+      "summary": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
+      "type": "MCP",
+      "classification": "按上游主题自动分类，未人工核验",
+      "tags": [
+        "agent",
+        "agent-harness",
+        "agentscope",
+        "ai-agent",
+        "ai-agents",
+        "chatbot",
+        "harness-engineering",
+        "llm-tools"
+      ],
+      "license": "Apache-2.0",
+      "stars": 37526,
+      "updatedAt": "2026-11-09T10:15:10Z",
+      "version": null,
+      "archived": false,
+      "status": "active",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
+      "provenance": [
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/agentscope-ai/qwenpaw",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
+        }
+      ],
+      "compatibility": [],
+      "security": "not-audited"
+    },
+    {
       "id": "r-08c020fa97195dac",
       "repo": "mblode/agent-skills",
       "url": "https://github.com/mblode/agent-skills",
@@ -1047,7 +1097,7 @@
         {
           "source": "Ecosyste.ms Awesome",
           "url": "https://awesome.ecosyste.ms/api/v1/lists/VoltAgent%2Fawesome-agent-skills/projects?per_page=25&page=1",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "CC-BY-SA-4.0",
           "via": "VoltAgent/awesome-agent-skills"
         },
@@ -1070,27 +1120,31 @@
       "id": "r-093ec358a0d937ce",
       "repo": "centricai/arvx-mcp",
       "url": "https://github.com/centricai/arvx-mcp",
-      "name": "ARVX",
-      "summary": "Email for long-term client relationships: ARVX reads each person first and remembers every pair.",
+      "name": "arvx-mcp",
+      "summary": "ARVX connector for AI agents: run ARVX Readings from any MCP-compatible assistant. Keeps nothing.",
       "type": "MCP",
-      "classification": "MCP 官方注册表类型；不代表安全审计",
-      "tags": [
-        "MCP"
-      ],
-      "license": null,
-      "stars": null,
-      "updatedAt": "2026-10-19T02:55:15.554192Z",
+      "classification": "按上游主题自动分类，未人工核验",
+      "tags": [],
+      "license": "Apache-2.0",
+      "stars": 0,
+      "updatedAt": "2026-10-30T10:40:58Z",
       "version": "1.0.0",
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
-      "descriptionOrigin": "MCP Registry",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "MCP Registry",
           "url": "https://registry.modelcontextprotocol.io/v0.1/servers/ai.arvx%2Farvx/versions/1.0.0",
           "checkedAt": "2026-11-09T09:42:42.540Z",
           "license": "上游元数据 · 原项目许可另查"
+        },
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/centricai/arvx-mcp",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
@@ -1108,7 +1162,12 @@
             }
           ]
         }
-      ]
+      ],
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z",
+      "metadataError": null,
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
+      "firstSeenAt": "2026-11-09T09:42:42.540Z"
     },
     {
       "id": "r-099d25ee86fe7df9",
@@ -1158,27 +1217,31 @@
       "id": "r-09a022acdab92e56",
       "repo": "autorfp/mcp",
       "url": "https://github.com/autorfp/mcp",
-      "name": "AutoRFP.ai",
-      "summary": "Search AutoRFP.ai projects, requirements, content library, and tags for Q&A and analytics.",
+      "name": "mcp",
+      "summary": "AutoRFP.ai github mcp server. Requires paid subscription to https://autorfp.ai.",
       "type": "MCP",
-      "classification": "MCP 官方注册表类型；不代表安全审计",
-      "tags": [
-        "MCP"
-      ],
-      "license": null,
-      "stars": null,
-      "updatedAt": "2026-05-18T01:09:10.259215Z",
+      "classification": "按上游主题自动分类，未人工核验",
+      "tags": [],
+      "license": "MIT",
+      "stars": 0,
+      "updatedAt": "2026-05-18T02:12:07Z",
       "version": "1.0.0",
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
-      "descriptionOrigin": "MCP Registry",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "MCP Registry",
           "url": "https://registry.modelcontextprotocol.io/v0.1/servers/ai.autorfp%2Fmcp/versions/1.0.0",
           "checkedAt": "2026-11-09T09:42:42.540Z",
           "license": "上游元数据 · 原项目许可另查"
+        },
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/autorfp/mcp",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
@@ -1196,7 +1259,12 @@
             }
           ]
         }
-      ]
+      ],
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z",
+      "metadataError": null,
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
+      "firstSeenAt": "2026-11-09T09:42:42.540Z"
     },
     {
       "id": "r-0a35401d2408d9ed",
@@ -1298,27 +1366,40 @@
       "id": "r-0b3c039bb2ed0873",
       "repo": "full-vibe/calendarmcp-public",
       "url": "https://github.com/full-vibe/calendarmcp-public",
-      "name": "CalendarMCP",
-      "summary": "Hosted Google Calendar MCP server for AI agents. No self-hosting or Google Cloud setup.",
+      "name": "calendarmcp-public",
+      "summary": "Public docs, manifest, and client configs for the hosted CalendarMCP service (calendarmcp.ai)",
       "type": "MCP",
-      "classification": "MCP 官方注册表类型；不代表安全审计",
+      "classification": "按上游主题自动分类，未人工核验",
       "tags": [
-        "MCP"
+        "ai-agents",
+        "anthropic",
+        "calendar",
+        "claude",
+        "cursor",
+        "google-calendar",
+        "hosted-mcp",
+        "mcp"
       ],
-      "license": null,
-      "stars": null,
-      "updatedAt": "2026-05-20T07:09:04.298867Z",
+      "license": "NOASSERTION",
+      "stars": 0,
+      "updatedAt": "2026-06-07T18:12:00Z",
       "version": "1.0.0",
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
-      "descriptionOrigin": "MCP Registry",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "MCP Registry",
           "url": "https://registry.modelcontextprotocol.io/v0.1/servers/ai.calendarmcp%2Fserver/versions/1.0.0",
           "checkedAt": "2026-11-09T09:42:42.540Z",
           "license": "上游元数据 · 原项目许可另查"
+        },
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/full-vibe/calendarmcp-public",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
@@ -1336,33 +1417,42 @@
             }
           ]
         }
-      ]
+      ],
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z",
+      "metadataError": null,
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
+      "firstSeenAt": "2026-11-09T09:42:42.540Z"
     },
     {
       "id": "r-0b9e949f6f341283",
       "repo": "ask-your-audience/askyouraudience",
       "url": "https://github.com/ask-your-audience/askyouraudience",
-      "name": "Ask Your Audience",
-      "summary": "Test ideas, messages and ads with Human Digital Twins built from real people, in your AI assistant.",
+      "name": "askyouraudience",
+      "summary": "Audience research with digital twins in your AI assistant",
       "type": "MCP",
-      "classification": "MCP 官方注册表类型；不代表安全审计",
-      "tags": [
-        "MCP"
-      ],
-      "license": null,
-      "stars": null,
-      "updatedAt": "2026-10-15T21:11:18.652163Z",
+      "classification": "按上游主题自动分类，未人工核验",
+      "tags": [],
+      "license": "MIT",
+      "stars": 0,
+      "updatedAt": "2026-10-15T21:11:12Z",
       "version": "1.0.4",
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
-      "descriptionOrigin": "MCP Registry",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "MCP Registry",
           "url": "https://registry.modelcontextprotocol.io/v0.1/servers/ai.askyouraudience%2Fask-your-audience/versions/1.0.4",
           "checkedAt": "2026-11-09T09:42:42.540Z",
           "license": "上游元数据 · 原项目许可另查"
+        },
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/ask-your-audience/askyouraudience",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
@@ -1380,7 +1470,12 @@
             }
           ]
         }
-      ]
+      ],
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z",
+      "metadataError": null,
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
+      "firstSeenAt": "2026-11-09T09:42:42.540Z"
     },
     {
       "id": "r-0c16e39cf9a6479e",
@@ -1402,17 +1497,17 @@
       ],
       "license": "MIT",
       "stars": 89,
-      "updatedAt": "2026-11-09T09:42:28Z",
+      "updatedAt": "2026-11-09T10:28:09Z",
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/hproxy-com/free-proxy-list",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
@@ -1492,18 +1587,24 @@
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/soodok/deepseek-harness-local-android",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
-      "security": "not-audited"
+      "security": "not-audited",
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z",
+      "metadataError": null,
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
+      "firstSeenAt": "2026-11-09T09:42:42.540Z",
+      "mcpServers": []
     },
     {
       "id": "r-0e45810e68affe7e",
@@ -1548,7 +1649,8 @@
           ]
         }
       ],
-      "metadataError": "HTTP 404; repos.ecosyste.ms"
+      "metadataError": "HTTP 404; repos.ecosyste.ms",
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z"
     },
     {
       "id": "r-0e4d6f5b6b87adc6",
@@ -1598,27 +1700,40 @@
       "id": "r-0e9d167429fcdc78",
       "repo": "techdocsstudio/biel-mcp",
       "url": "https://github.com/techdocsstudio/biel-mcp",
-      "name": "Biel.ai",
-      "summary": "Query your product docs from AI tools. Source-cited answers from your indexed documentation.",
+      "name": "biel-mcp",
+      "summary": "Connect AI tools like Cursor, VS Code, and Claude to your product docs.",
       "type": "MCP",
-      "classification": "MCP 官方注册表类型；不代表安全审计",
+      "classification": "按上游主题自动分类，未人工核验",
       "tags": [
-        "MCP"
+        "ask-ai",
+        "chatbot",
+        "docs",
+        "documentation",
+        "docusaurus",
+        "mcp",
+        "mcp-server",
+        "rag"
       ],
-      "license": null,
-      "stars": null,
-      "updatedAt": "2026-07-05T15:36:24.193043Z",
+      "license": "MIT",
+      "stars": 4,
+      "updatedAt": "2026-10-23T10:34:42Z",
       "version": "2.0.0",
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
-      "descriptionOrigin": "MCP Registry",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "MCP Registry",
           "url": "https://registry.modelcontextprotocol.io/v0.1/servers/ai.biel%2Fbiel-ai/versions/2.0.0",
           "checkedAt": "2026-11-09T09:42:42.540Z",
           "license": "上游元数据 · 原项目许可另查"
+        },
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/techdocsstudio/biel-mcp",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
@@ -1640,7 +1755,12 @@
             }
           ]
         }
-      ]
+      ],
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z",
+      "metadataError": null,
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
+      "firstSeenAt": "2026-11-09T09:42:42.540Z"
     },
     {
       "id": "r-0ec19d6244609d02",
@@ -1690,27 +1810,35 @@
       "id": "r-0ecefd8231b53c9d",
       "repo": "bankrolled/bankrolled-ai-mcp",
       "url": "https://github.com/bankrolled/bankrolled-ai-mcp",
-      "name": "Bankrolled.ai Agent Hub",
-      "summary": "Free, sourced deposit-insurance/savings/retirement limits. US, UK, CA, AU, NZ. No key, no payment.",
+      "name": "bankrolled-ai-mcp",
+      "summary": "Bankrolled.ai Agent Hub — remote MCP server ([bankrolled.ai/mcp](https://bankrolled.ai/mcp)). Docs and registry metadata only",
       "type": "MCP",
-      "classification": "MCP 官方注册表类型；不代表安全审计",
+      "classification": "按上游主题自动分类，未人工核验",
       "tags": [
-        "MCP"
+        "gemini-cli-extension",
+        "mcp",
+        "mcp-server"
       ],
-      "license": null,
-      "stars": null,
-      "updatedAt": "2026-11-05T08:38:15.309167Z",
+      "license": "MIT",
+      "stars": 0,
+      "updatedAt": "2026-11-05T08:37:52Z",
       "version": "1.5.9",
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
-      "descriptionOrigin": "MCP Registry",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "MCP Registry",
           "url": "https://registry.modelcontextprotocol.io/v0.1/servers/ai.bankrolled%2Fagent-hub/versions/1.5.9",
           "checkedAt": "2026-11-09T09:42:42.540Z",
           "license": "上游元数据 · 原项目许可另查"
+        },
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/bankrolled/bankrolled-ai-mcp",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
@@ -1728,7 +1856,12 @@
             }
           ]
         }
-      ]
+      ],
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z",
+      "metadataError": null,
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
+      "firstSeenAt": "2026-11-09T09:42:42.540Z"
     },
     {
       "id": "r-0fecee1ced97a4bb",
@@ -1822,27 +1955,31 @@
       "id": "r-1107b1cfcaef83fc",
       "repo": "avaloncompany/web-content-mcp-server",
       "url": "https://github.com/avaloncompany/web-content-mcp-server",
-      "name": "Web Content & URL Tools",
-      "summary": "26 tools: web pages to Markdown, metadata, tech stack, SSL, SEO, domains, email auth and SSO checks.",
+      "name": "web-content-mcp-server",
+      "summary": "Remote MCP server with 26 tools for AI agents: web pages to Markdown, metadata, tech stack, SSL, security headers, SEO, domains, email auth (SPF/DMARC/DKIM), SSO checks and dev utilities. Hosted on Apify, pay per call.",
       "type": "MCP",
-      "classification": "MCP 官方注册表类型；不代表安全审计",
-      "tags": [
-        "MCP"
-      ],
-      "license": null,
-      "stars": null,
-      "updatedAt": "2026-10-03T14:09:40.783985Z",
+      "classification": "按上游主题自动分类，未人工核验",
+      "tags": [],
+      "license": "MIT",
+      "stars": 0,
+      "updatedAt": "2026-10-04T06:10:14Z",
       "version": "1.0.0",
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
-      "descriptionOrigin": "MCP Registry",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "MCP Registry",
           "url": "https://registry.modelcontextprotocol.io/v0.1/servers/ai.avaloncompany%2Fweb-content-url-tools/versions/1.0.0",
           "checkedAt": "2026-11-09T09:42:42.540Z",
           "license": "上游元数据 · 原项目许可另查"
+        },
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/avaloncompany/web-content-mcp-server",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
@@ -1860,7 +1997,12 @@
             }
           ]
         }
-      ]
+      ],
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z",
+      "metadataError": null,
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
+      "firstSeenAt": "2026-11-09T09:42:42.540Z"
     },
     {
       "id": "r-11d85df2bb63047d",
@@ -2285,7 +2427,9 @@
             }
           ]
         }
-      ]
+      ],
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z",
+      "metadataError": "HTTP 404; repos.ecosyste.ms"
     },
     {
       "id": "r-1955babd20ceeaab",
@@ -2372,33 +2516,47 @@
           "remotes": []
         }
       ],
-      "firstSeenAt": "2026-11-09T09:42:42.540Z"
+      "firstSeenAt": "2026-11-09T09:42:42.540Z",
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z",
+      "metadataError": "HTTP 404; repos.ecosyste.ms"
     },
     {
       "id": "r-19b8f28a9cd109cb",
       "repo": "bowmark-ai/skill",
       "url": "https://github.com/bowmark-ai/skill",
-      "name": "Bowmark web data: LinkedIn, Amazon, YouTube, Reddit, Airbnb, Instagram",
-      "summary": "Web scraping and automation for AI agents: live prices, quotes, bookings, anything behind a login.",
+      "name": "skill",
+      "summary": "The Bowmark skill: the web as callable functions. The agent reads a typed function library, writes a short script, and Bowmark runs it on the live sites. https://bowmark.ai Browse and publish jigs, small pages that run with your own logins: bowmark.ai/jigs",
       "type": "MCP",
-      "classification": "MCP 官方注册表类型；不代表安全审计",
+      "classification": "按上游主题自动分类，未人工核验",
       "tags": [
-        "MCP"
+        "agent-skills",
+        "ai-agents",
+        "ai-tools",
+        "claude-code",
+        "mcp",
+        "web-automation",
+        "web-scraping"
       ],
-      "license": null,
-      "stars": null,
-      "updatedAt": "2026-11-09T02:34:37.227315Z",
+      "license": "MIT",
+      "stars": 1,
+      "updatedAt": "2026-11-08T20:09:09Z",
       "version": "8.216.0",
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
-      "descriptionOrigin": "MCP Registry",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "MCP Registry",
           "url": "https://registry.modelcontextprotocol.io/v0.1/servers/ai.bowmark%2Fbowmark/versions/8.216.0",
           "checkedAt": "2026-11-09T09:42:42.540Z",
           "license": "上游元数据 · 原项目许可另查"
+        },
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/bowmark-ai/skill",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
@@ -2429,7 +2587,12 @@
             }
           ]
         }
-      ]
+      ],
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z",
+      "metadataError": null,
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
+      "firstSeenAt": "2026-11-09T09:42:42.540Z"
     },
     {
       "id": "r-19e18d726e87f27b",
@@ -2642,6 +2805,45 @@
       "firstSeenAt": "2026-11-09T09:26:56.194Z"
     },
     {
+      "id": "r-1bcb08969786fb89",
+      "repo": "eigent-ai/eigent",
+      "url": "https://github.com/eigent-ai/eigent",
+      "name": "eigent",
+      "summary": "Eigent: The Open Source Cowork Desktop - Local and Free Alternative to Claude Cowork and Codex",
+      "type": "Skill",
+      "classification": "按上游主题自动分类，未人工核验",
+      "tags": [
+        "agent-framework",
+        "agent-skills",
+        "agentic-ai",
+        "agentic-workflow",
+        "claude-cowork",
+        "claude-cowork-alternative",
+        "claude-cowork-free",
+        "desktop-agent"
+      ],
+      "license": "Apache-2.0",
+      "stars": 15780,
+      "updatedAt": "2026-11-09T10:25:20Z",
+      "version": null,
+      "archived": false,
+      "status": "active",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
+      "provenance": [
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/eigent-ai/eigent",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
+        }
+      ],
+      "compatibility": [],
+      "security": "not-audited",
+      "firstSeenAt": "2026-11-09T10:28:14.892Z",
+      "mcpServers": []
+    },
+    {
       "id": "r-1d4474f01c4441fa",
       "repo": null,
       "url": "https://registry.modelcontextprotocol.io/v0.1/servers/ai.beatbandit%2Fbeatbandit/versions/1.0.0",
@@ -2726,6 +2928,43 @@
       "upstreamSyncedAt": "2026-11-09T09:42:42.540Z",
       "firstSeenAt": "2026-11-09T09:26:56.194Z",
       "mcpServers": []
+    },
+    {
+      "id": "r-1e0ace5758668ca1",
+      "repo": "genai-io/san",
+      "url": "https://github.com/genai-io/san",
+      "name": "san",
+      "summary": "Open-source terminal agent runtime. Lean context, native speed, open all the way down — in a single Go binary.",
+      "type": "MCP",
+      "classification": "按上游主题自动分类，未人工核验",
+      "tags": [
+        "agent-harness",
+        "ai-agents",
+        "claude-code",
+        "cli",
+        "coding-agent",
+        "golang",
+        "llm",
+        "mcp"
+      ],
+      "license": "Apache-2.0",
+      "stars": 147,
+      "updatedAt": "2026-11-09T10:13:29Z",
+      "version": null,
+      "archived": false,
+      "status": "active",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
+      "provenance": [
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/genai-io/san",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
+        }
+      ],
+      "compatibility": [],
+      "security": "not-audited"
     },
     {
       "id": "r-1f233d42f0cee592",
@@ -2871,27 +3110,39 @@
       "id": "r-21884c2a24204d82",
       "repo": "benchgecko/datasets",
       "url": "https://github.com/benchgecko/datasets",
-      "name": "BenchGecko",
-      "summary": "AI model prices per provider, benchmarks, own AI behavior tests and AI economy data, with sources.",
+      "name": "datasets",
+      "summary": "Open daily datasets on the AI economy: model prices across providers, price changes, company figures with sources, Mindshare, GPU rental prices, Gecko Tests. CC BY 4.0.",
       "type": "MCP",
-      "classification": "MCP 官方注册表类型；不代表安全审计",
+      "classification": "按上游主题自动分类，未人工核验",
       "tags": [
-        "MCP"
+        "ai",
+        "benchmarks",
+        "datasets",
+        "gpu",
+        "llm",
+        "open-data",
+        "pricing"
       ],
-      "license": null,
-      "stars": null,
-      "updatedAt": "2026-10-05T15:47:57.62607Z",
+      "license": "NOASSERTION",
+      "stars": 0,
+      "updatedAt": "2026-11-08T18:07:54Z",
       "version": "1.0.0",
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
-      "descriptionOrigin": "MCP Registry",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "MCP Registry",
           "url": "https://registry.modelcontextprotocol.io/v0.1/servers/ai.benchgecko%2Fbenchgecko/versions/1.0.0",
           "checkedAt": "2026-11-09T09:42:42.540Z",
           "license": "上游元数据 · 原项目许可另查"
+        },
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/benchgecko/datasets",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
@@ -2909,7 +3160,12 @@
             }
           ]
         }
-      ]
+      ],
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z",
+      "metadataError": null,
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
+      "firstSeenAt": "2026-11-09T09:42:42.540Z"
     },
     {
       "id": "r-2251830dea6f5c66",
@@ -3008,30 +3264,79 @@
       ]
     },
     {
+      "id": "r-226170f0b4335faa",
+      "repo": "vyomkulshrestha/heliox-os",
+      "url": "https://github.com/vyomkulshrestha/heliox-os",
+      "name": "Heliox-OS",
+      "summary": "Open-source, local-first desktop AI agent for voice, gesture, gaze, browser and system automation with permission gates and verification.",
+      "type": "MCP",
+      "classification": "按上游主题自动分类，未人工核验",
+      "tags": [
+        "accessibility",
+        "agentic-ai",
+        "ai-agent",
+        "automation",
+        "computer-use",
+        "desktop-app",
+        "gaze-tracking",
+        "gesture-control"
+      ],
+      "license": "MIT",
+      "stars": 69,
+      "updatedAt": "2026-11-09T10:25:48Z",
+      "version": null,
+      "archived": false,
+      "status": "active",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
+      "provenance": [
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/vyomkulshrestha/heliox-os",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
+        }
+      ],
+      "compatibility": [],
+      "security": "not-audited"
+    },
+    {
       "id": "r-234c8a8ef4e823e7",
       "repo": "uofuonye/bizmoon-plugins",
       "url": "https://github.com/uofuonye/bizmoon-plugins",
-      "name": "ai.bizmoon/regulatory",
-      "summary": "Live US federal and state regulatory changes and grant programs, every result cited.",
+      "name": "bizmoon-plugins",
+      "summary": "Claude Code plugin for the Bizmoon MCP server: live US federal and state regulatory changes and grant programs, with citations. Free tier, no account required.",
       "type": "MCP",
-      "classification": "MCP 官方注册表类型；不代表安全审计",
+      "classification": "按上游主题自动分类，未人工核验",
       "tags": [
-        "MCP"
+        "ai-agents",
+        "claude-code",
+        "govtech",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "regulatory-compliance"
       ],
-      "license": null,
-      "stars": null,
-      "updatedAt": "2026-09-05T17:51:19.465355Z",
+      "license": "MIT",
+      "stars": 0,
+      "updatedAt": "2026-09-13T11:57:23Z",
       "version": "1.0.0",
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
-      "descriptionOrigin": "MCP Registry",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "MCP Registry",
           "url": "https://registry.modelcontextprotocol.io/v0.1/servers/ai.bizmoon%2Fregulatory/versions/1.0.0",
           "checkedAt": "2026-11-09T09:42:42.540Z",
           "license": "上游元数据 · 原项目许可另查"
+        },
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/uofuonye/bizmoon-plugins",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
@@ -3049,7 +3354,12 @@
             }
           ]
         }
-      ]
+      ],
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z",
+      "metadataError": null,
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
+      "firstSeenAt": "2026-11-09T09:42:42.540Z"
     },
     {
       "id": "r-236ea676753a626d",
@@ -3181,7 +3491,9 @@
             }
           ]
         }
-      ]
+      ],
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z",
+      "metadataError": "HTTP 404; repos.ecosyste.ms"
     },
     {
       "id": "r-2888c8c96f88e504",
@@ -3278,7 +3590,8 @@
           ]
         }
       ],
-      "metadataError": "HTTP 404; repos.ecosyste.ms"
+      "metadataError": "HTTP 404; repos.ecosyste.ms",
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z"
     },
     {
       "id": "r-28e473601c2b255a",
@@ -3344,22 +3657,28 @@
       ],
       "license": "MIT",
       "stars": 325,
-      "updatedAt": "2026-11-09T09:41:37Z",
+      "updatedAt": "2026-11-09T10:14:21Z",
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/weftcut/weftcut",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
-      "security": "not-audited"
+      "security": "not-audited",
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z",
+      "metadataError": null,
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
+      "firstSeenAt": "2026-11-09T09:42:42.540Z",
+      "mcpServers": []
     },
     {
       "id": "r-2af427cf82d32e8e",
@@ -3687,6 +4006,43 @@
       ]
     },
     {
+      "id": "r-2de295c0e791f451",
+      "repo": "autopus-ai/autopus-adk",
+      "url": "https://github.com/autopus-ai/autopus-adk",
+      "name": "autopus-adk",
+      "summary": "Autopus-ADK is of the agents, by the agents. for the agents. Multi-model orchestration (consensus/pipeline/debate/fastest). Architecture-as-Code, Lore decision tracking, SPEC/EARS engine.",
+      "type": "Workflow",
+      "classification": "按上游主题自动分类，未人工核验",
+      "tags": [
+        "agent-framework",
+        "agentic-ai",
+        "ai-agents",
+        "automation",
+        "claude-code",
+        "cli",
+        "codex",
+        "coding-agents"
+      ],
+      "license": "MIT",
+      "stars": 109,
+      "updatedAt": "2026-11-09T10:26:36Z",
+      "version": null,
+      "archived": false,
+      "status": "active",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
+      "provenance": [
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/autopus-ai/autopus-adk",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
+        }
+      ],
+      "compatibility": [],
+      "security": "not-audited"
+    },
+    {
       "id": "r-2fc73b251c5e9d50",
       "repo": null,
       "url": "https://registry.modelcontextprotocol.io/v0.1/servers/ai.aginera%2Fpreconstruction/versions/1.2.0",
@@ -3729,6 +4085,43 @@
           ]
         }
       ]
+    },
+    {
+      "id": "r-2fd706cc2a05d804",
+      "repo": "zordhalo/runs-on.dev",
+      "url": "https://github.com/zordhalo/runs-on.dev",
+      "name": "runs-on.dev",
+      "summary": "Grab your own cool 'runs-on.dev' subdomain to use for free forever.",
+      "type": "MCP",
+      "classification": "按上游主题自动分类，未人工核验",
+      "tags": [
+        "cloudflare",
+        "dev",
+        "developer",
+        "dns",
+        "domains",
+        "foss",
+        "free",
+        "free-domain"
+      ],
+      "license": "AGPL-3.0",
+      "stars": 540,
+      "updatedAt": "2026-11-09T10:28:26Z",
+      "version": null,
+      "archived": false,
+      "status": "active",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
+      "provenance": [
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/zordhalo/runs-on.dev",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
+        }
+      ],
+      "compatibility": [],
+      "security": "not-audited"
     },
     {
       "id": "r-2feec4d8835aeb7c",
@@ -4061,27 +4454,40 @@
       "id": "r-322764d826a9d933",
       "repo": "canvora/canvora-mcp",
       "url": "https://github.com/canvora/canvora-mcp",
-      "name": "Canvora",
-      "summary": "Turn any idea, URL, doc, or PDF into on-brand visuals: 100+ formats, native in 150+ languages",
+      "name": "canvora-mcp",
+      "summary": "Turn any idea, URL, doc, or PDF into on-brand visuals: 100+ formats, native in 150+ languages. CLI + MCP + agent   skill for Canvora.",
       "type": "MCP",
-      "classification": "MCP 官方注册表类型；不代表安全审计",
+      "classification": "按上游主题自动分类，未人工核验",
       "tags": [
-        "MCP"
+        "agent-skills",
+        "agents",
+        "ai",
+        "carousel",
+        "chatgpt",
+        "claude",
+        "cli",
+        "content-creation"
       ],
-      "license": null,
-      "stars": null,
-      "updatedAt": "2026-07-20T00:14:46.676606Z",
+      "license": "MIT",
+      "stars": 1,
+      "updatedAt": "2026-10-28T08:58:52Z",
       "version": "1.2.0",
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
-      "descriptionOrigin": "MCP Registry",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "MCP Registry",
           "url": "https://registry.modelcontextprotocol.io/v0.1/servers/ai.canvora%2Fcanvora/versions/1.2.0",
           "checkedAt": "2026-11-09T09:42:42.540Z",
           "license": "上游元数据 · 原项目许可另查"
+        },
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/canvora/canvora-mcp",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
@@ -4099,7 +4505,12 @@
             }
           ]
         }
-      ]
+      ],
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z",
+      "metadataError": null,
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
+      "firstSeenAt": "2026-11-09T09:42:42.540Z"
     },
     {
       "id": "r-32804da490f52746",
@@ -4143,33 +4554,45 @@
             }
           ]
         }
-      ]
+      ],
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z",
+      "metadataError": "HTTP 404; repos.ecosyste.ms"
     },
     {
       "id": "r-32d0fda0bb2c8a3b",
       "repo": "opspot-ai/betslipdoctor-mcp",
       "url": "https://github.com/opspot-ai/betslipdoctor-mcp",
-      "name": "BetSlip Doctor",
-      "summary": "Your agent grades every slip A+ to F-, links your books and tracks your record. No wager placement.",
+      "name": "betslipdoctor-mcp",
+      "summary": "BetSlip Doctor MCP server: bet slip grader, parlay tracker and Tail for Claude, ChatGPT and any MCP client",
       "type": "MCP",
-      "classification": "MCP 官方注册表类型；不代表安全审计",
+      "classification": "按上游主题自动分类，未人工核验",
       "tags": [
-        "MCP"
+        "claude",
+        "mcp",
+        "mcp-server",
+        "parlay",
+        "sports-betting"
       ],
-      "license": null,
-      "stars": null,
-      "updatedAt": "2026-10-21T08:35:17.264574Z",
+      "license": "NOASSERTION",
+      "stars": 0,
+      "updatedAt": "2026-10-10T09:03:44Z",
       "version": "1.4.0",
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
-      "descriptionOrigin": "MCP Registry",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "MCP Registry",
           "url": "https://registry.modelcontextprotocol.io/v0.1/servers/ai.betslipdoctor%2Fmcp/versions/1.4.0",
           "checkedAt": "2026-11-09T09:42:42.540Z",
           "license": "上游元数据 · 原项目许可另查"
+        },
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/opspot-ai/betslipdoctor-mcp",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
@@ -4187,7 +4610,12 @@
             }
           ]
         }
-      ]
+      ],
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z",
+      "metadataError": null,
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
+      "firstSeenAt": "2026-11-09T09:42:42.540Z"
     },
     {
       "id": "r-32f38cd8e72f01d9",
@@ -4237,27 +4665,31 @@
       "id": "r-33238150347438c0",
       "repo": "nlapi/cabrini-py",
       "url": "https://github.com/nlapi/cabrini-py",
-      "name": "Cabrini Market Data",
-      "summary": "US equity data for AI agents — 23 years intraday + daily, SEC filings. x402 USDC payments.",
+      "name": "cabrini-py",
+      "summary": "US stock market data for AI agents — 23 years of intraday metrics + daily OHLCV with VWAP, SEC fundamentals, filings, insiders. pip install cabrini",
       "type": "MCP",
-      "classification": "MCP 官方注册表类型；不代表安全审计",
-      "tags": [
-        "MCP"
-      ],
-      "license": null,
-      "stars": null,
-      "updatedAt": "2026-07-29T17:12:49.69068Z",
+      "classification": "按上游主题自动分类，未人工核验",
+      "tags": [],
+      "license": "MIT",
+      "stars": 1,
+      "updatedAt": "2026-07-26T22:52:55Z",
       "version": "1.1.0",
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
-      "descriptionOrigin": "MCP Registry",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "MCP Registry",
           "url": "https://registry.modelcontextprotocol.io/v0.1/servers/ai.cabrini%2Fmarket-data/versions/1.1.0",
           "checkedAt": "2026-11-09T09:42:42.540Z",
           "license": "上游元数据 · 原项目许可另查"
+        },
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/nlapi/cabrini-py",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
@@ -4275,7 +4707,12 @@
             }
           ]
         }
-      ]
+      ],
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z",
+      "metadataError": null,
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
+      "firstSeenAt": "2026-11-09T09:42:42.540Z"
     },
     {
       "id": "r-348110d6e19410be",
@@ -4364,7 +4801,8 @@
           ]
         }
       ],
-      "metadataError": "HTTP 404; repos.ecosyste.ms"
+      "metadataError": "HTTP 404; repos.ecosyste.ms",
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z"
     },
     {
       "id": "r-35532df660174fa8",
@@ -4386,22 +4824,28 @@
       ],
       "license": "Apache-2.0",
       "stars": 116,
-      "updatedAt": "2026-11-09T09:42:05Z",
+      "updatedAt": "2026-11-09T09:49:27Z",
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/exmergo/dex",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
-      "security": "not-audited"
+      "security": "not-audited",
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z",
+      "metadataError": null,
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
+      "firstSeenAt": "2026-11-09T09:42:42.540Z",
+      "mcpServers": []
     },
     {
       "id": "r-359143b9fcccf84f",
@@ -5979,18 +6423,18 @@
         "ai-orchestration"
       ],
       "license": "Apache-2.0",
-      "stars": 1397,
-      "updatedAt": "2026-11-09T09:39:24Z",
+      "stars": 1398,
+      "updatedAt": "2026-11-09T10:24:38Z",
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/team-commonly/commonly",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
@@ -6269,6 +6713,43 @@
           ]
         }
       ]
+    },
+    {
+      "id": "r-4ba1be208bcf6a38",
+      "repo": "tabularisdb/tabularis",
+      "url": "https://github.com/tabularisdb/tabularis",
+      "name": "tabularis",
+      "summary": "Open-source desktop SQL workspace with 3 built-in database drivers and 29 shipped driver plugins, including SQL Server, DuckDB, ClickHouse and Redis. Built-in MCP server for Claude, Cursor and Devin, SQL notebooks and visual EXPLAIN.",
+      "type": "MCP",
+      "classification": "按上游主题自动分类，未人工核验",
+      "tags": [
+        "ai-agent",
+        "ai-assistant",
+        "cross-platform",
+        "database-client",
+        "database-gui",
+        "database-tool",
+        "er-diagram",
+        "mariadb"
+      ],
+      "license": "Apache-2.0",
+      "stars": 5412,
+      "updatedAt": "2026-11-09T10:27:38Z",
+      "version": null,
+      "archived": false,
+      "status": "active",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
+      "provenance": [
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/tabularisdb/tabularis",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
+        }
+      ],
+      "compatibility": [],
+      "security": "not-audited"
     },
     {
       "id": "r-4d3f1fe57d6129c3",
@@ -7382,17 +7863,56 @@
       ],
       "license": "AGPL-3.0",
       "stars": 765,
-      "updatedAt": "2026-11-09T09:37:59Z",
+      "updatedAt": "2026-11-09T10:23:00Z",
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/helpcode-ai/anythingmcp",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
+        }
+      ],
+      "compatibility": [],
+      "security": "not-audited",
+      "firstSeenAt": "2026-11-09T09:42:42.540Z",
+      "mcpServers": []
+    },
+    {
+      "id": "r-55fad0c0495a1496",
+      "repo": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "name": "paperclip",
+      "summary": "The open-source app everyone uses to manage agents at work",
+      "type": "MCP",
+      "classification": "按上游主题自动分类，未人工核验",
+      "tags": [
+        "acpx",
+        "agent-orchestration",
+        "agent-skills",
+        "agentic-ai",
+        "ai-agents",
+        "ai-engineering",
+        "ai-governance",
+        "ai-tools"
+      ],
+      "license": "MIT",
+      "stars": 112461,
+      "updatedAt": "2026-11-09T10:27:07Z",
+      "version": null,
+      "archived": false,
+      "status": "active",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
+      "provenance": [
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/paperclipai/paperclip",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
@@ -7786,6 +8306,43 @@
       ]
     },
     {
+      "id": "r-5b41ff70b7133062",
+      "repo": "builderio/agent-native",
+      "url": "https://github.com/builderio/agent-native",
+      "name": "agent-native",
+      "summary": "A framework for building agentic apps",
+      "type": "MCP",
+      "classification": "按上游主题自动分类，未人工核验",
+      "tags": [
+        "agent-framework",
+        "agent-native",
+        "agentic-ai",
+        "agents",
+        "ai",
+        "ai-agents",
+        "framework",
+        "generative-ui"
+      ],
+      "license": "MIT",
+      "stars": 7655,
+      "updatedAt": "2026-11-09T10:12:31Z",
+      "version": null,
+      "archived": false,
+      "status": "active",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
+      "provenance": [
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/builderio/agent-native",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
+        }
+      ],
+      "compatibility": [],
+      "security": "not-audited"
+    },
+    {
       "id": "r-5b858741a21abf81",
       "repo": null,
       "url": "https://registry.modelcontextprotocol.io/v0.1/servers/ai.benroberts%2Fb4-index/versions/3.3.0",
@@ -7841,28 +8398,29 @@
         "agent-skills"
       ],
       "license": null,
-      "stars": 190027,
+      "stars": 190062,
       "updatedAt": "2026-11-06T22:32:32Z",
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/anthropics/skills",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
       "security": "not-audited",
-      "metadataCheckedAt": "2026-11-09T09:42:42.540Z",
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
       "metadataError": null,
-      "upstreamSyncedAt": "2026-11-09T09:42:42.540Z",
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
       "firstSeenAt": "2026-11-09T09:26:56.194Z",
-      "mcpServers": []
+      "mcpServers": [],
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z"
     },
     {
       "id": "r-5c9ec8ce87acd71b",
@@ -8850,23 +9408,25 @@
         "multi-agent"
       ],
       "license": "Apache-2.0",
-      "stars": 8774,
-      "updatedAt": "2026-11-09T09:15:26Z",
+      "stars": 8778,
+      "updatedAt": "2026-11-09T10:21:29Z",
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:26:56.194Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/mvschwarz/openrig",
-          "checkedAt": "2026-11-09T09:26:56.194Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
-      "security": "not-audited"
+      "security": "not-audited",
+      "firstSeenAt": "2026-11-09T09:26:56.194Z",
+      "mcpServers": []
     },
     {
       "id": "r-66632e738204f43a",
@@ -9071,23 +9631,24 @@
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/google/adk-python",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
       "security": "not-audited",
-      "metadataCheckedAt": "2026-11-09T09:42:42.540Z",
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
       "metadataError": null,
-      "upstreamSyncedAt": "2026-11-09T09:42:42.540Z",
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
       "firstSeenAt": "2026-11-09T09:26:56.194Z",
-      "mcpServers": []
+      "mcpServers": [],
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z"
     },
     {
       "id": "r-6b2d0de526c93662",
@@ -9143,28 +9704,29 @@
       "classification": "按上游主题自动分类，未人工核验",
       "tags": [],
       "license": "Apache-2.0",
-      "stars": 71484,
-      "updatedAt": "2026-11-09T06:17:44Z",
+      "stars": 71488,
+      "updatedAt": "2026-11-09T09:54:06Z",
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/cline/cline",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
       "security": "not-audited",
-      "metadataCheckedAt": "2026-11-09T09:42:42.540Z",
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
       "metadataError": null,
-      "upstreamSyncedAt": "2026-11-09T09:42:42.540Z",
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
       "firstSeenAt": "2026-11-09T09:26:56.194Z",
-      "mcpServers": []
+      "mcpServers": [],
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z"
     },
     {
       "id": "r-6b627cde1fc2197e",
@@ -9554,28 +10116,29 @@
       "classification": "按上游主题自动分类，未人工核验",
       "tags": [],
       "license": "MIT",
-      "stars": 38679,
+      "stars": 38681,
       "updatedAt": "2026-11-06T02:37:48Z",
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/vercel-labs/skills",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
       "security": "not-audited",
-      "metadataCheckedAt": "2026-11-09T09:42:42.540Z",
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
       "metadataError": null,
-      "upstreamSyncedAt": "2026-11-09T09:42:42.540Z",
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
       "firstSeenAt": "2026-11-09T09:26:56.194Z",
-      "mcpServers": []
+      "mcpServers": [],
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z"
     },
     {
       "id": "r-738ace2d0c85a82e",
@@ -11121,28 +11684,29 @@
         "open-source"
       ],
       "license": "Apache-2.0",
-      "stars": 36438,
+      "stars": 36439,
       "updatedAt": "2026-11-05T15:28:28Z",
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/continuedev/continue",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
       "security": "not-audited",
-      "metadataCheckedAt": "2026-11-09T09:42:42.540Z",
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
       "metadataError": null,
-      "upstreamSyncedAt": "2026-11-09T09:42:42.540Z",
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
       "firstSeenAt": "2026-11-09T09:26:56.194Z",
-      "mcpServers": []
+      "mcpServers": [],
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z"
     },
     {
       "id": "r-87a2285407e7b88b",
@@ -11905,28 +12469,29 @@
         "playwright"
       ],
       "license": "Apache-2.0",
-      "stars": 39364,
+      "stars": 39366,
       "updatedAt": "2026-11-06T22:49:45Z",
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/microsoft/playwright-mcp",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
       "security": "not-audited",
-      "metadataCheckedAt": "2026-11-09T09:42:42.540Z",
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
       "metadataError": null,
-      "upstreamSyncedAt": "2026-11-09T09:42:42.540Z",
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
       "firstSeenAt": "2026-11-09T09:26:56.194Z",
-      "mcpServers": []
+      "mcpServers": [],
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z"
     },
     {
       "id": "r-91025f285a343306",
@@ -11992,27 +12557,28 @@
       ],
       "license": "NOASSERTION",
       "stars": 25441,
-      "updatedAt": "2026-11-09T09:38:45Z",
+      "updatedAt": "2026-11-09T10:17:45Z",
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/activepieces/activepieces",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
       "security": "not-audited",
-      "metadataCheckedAt": "2026-11-09T09:42:42.540Z",
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
       "metadataError": null,
-      "upstreamSyncedAt": "2026-11-09T09:42:42.540Z",
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
       "firstSeenAt": "2026-11-09T09:26:56.194Z",
-      "mcpServers": []
+      "mcpServers": [],
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z"
     },
     {
       "id": "r-9232bd14f8615116",
@@ -12216,28 +12782,29 @@
         "gpt"
       ],
       "license": "NOASSERTION",
-      "stars": 176646,
-      "updatedAt": "2026-11-09T09:26:10Z",
+      "stars": 176649,
+      "updatedAt": "2026-11-09T09:54:34Z",
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/f/prompts.chat",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
       "security": "not-audited",
-      "metadataCheckedAt": "2026-11-09T09:42:42.540Z",
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
       "metadataError": null,
-      "upstreamSyncedAt": "2026-11-09T09:42:42.540Z",
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
       "firstSeenAt": "2026-11-09T09:26:56.194Z",
-      "mcpServers": []
+      "mcpServers": [],
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z"
     },
     {
       "id": "r-93d90878394b5a27",
@@ -13226,6 +13793,45 @@
       "security": "not-audited"
     },
     {
+      "id": "r-a0b1b0a8a7570bbf",
+      "repo": "invergent-ai/surogates",
+      "url": "https://github.com/invergent-ai/surogates",
+      "name": "surogates",
+      "summary": "Open platform for running Managed Agents at scale",
+      "type": "Skill",
+      "classification": "按上游主题自动分类，未人工核验",
+      "tags": [
+        "agent",
+        "agent-framework",
+        "agent-memory",
+        "agent-orchestration",
+        "agent-skill",
+        "agent-skills",
+        "agentic",
+        "agentic-ai"
+      ],
+      "license": "AGPL-3.0",
+      "stars": 28,
+      "updatedAt": "2026-11-09T10:27:45Z",
+      "version": null,
+      "archived": false,
+      "status": "active",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
+      "provenance": [
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/invergent-ai/surogates",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
+        }
+      ],
+      "compatibility": [],
+      "security": "not-audited",
+      "firstSeenAt": "2026-11-09T10:28:14.892Z",
+      "mcpServers": []
+    },
+    {
       "id": "r-a188ca2ab111e243",
       "repo": null,
       "url": "https://registry.modelcontextprotocol.io/v0.1/servers/ai.aldro%2Ftax/versions/1.0.0",
@@ -14115,53 +14721,61 @@
         "integrations"
       ],
       "license": "NOASSERTION",
-      "stars": 209892,
-      "updatedAt": "2026-11-09T09:42:35Z",
+      "stars": 209894,
+      "updatedAt": "2026-11-09T10:24:59Z",
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/n8n-io/n8n",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
       "security": "not-audited",
-      "metadataCheckedAt": "2026-11-09T09:42:42.540Z",
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
       "metadataError": null,
-      "upstreamSyncedAt": "2026-11-09T09:42:42.540Z",
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
       "firstSeenAt": "2026-11-09T09:26:56.194Z",
-      "mcpServers": []
+      "mcpServers": [],
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z"
     },
     {
       "id": "r-ac8a443e49190b3d",
       "repo": "autonomous-ai/openharness",
       "url": "https://github.com/autonomous-ai/openharness",
-      "name": "Harness",
-      "summary": "Start Claude Code and Codex agents the person can watch, wait for them and read their answers.",
+      "name": "openharness",
+      "summary": "The ultimate harness for coding agents and beyond. All your agents. All your machines. One command center. Start with code, then follow your curiosity and build across disciplines: CAD, circuits, robots, games and music.",
       "type": "MCP",
-      "classification": "MCP 官方注册表类型；不代表安全审计",
+      "classification": "按上游主题自动分类，未人工核验",
       "tags": [
-        "MCP"
+        "3d-modeling",
+        "agent-framework",
+        "agent-harness",
+        "ai-agents",
+        "cad",
+        "claude-code",
+        "codex",
+        "coding-agents"
       ],
       "license": "MIT",
       "stars": 1447,
-      "updatedAt": "2026-10-19T08:39:43.531506Z",
+      "updatedAt": "2026-11-09T10:24:35Z",
       "version": "0.4.20",
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
-      "descriptionOrigin": "MCP Registry",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/autonomous-ai/openharness",
-          "checkedAt": "2026-11-09T09:26:56.194Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         },
         {
@@ -14368,6 +14982,43 @@
       ]
     },
     {
+      "id": "r-b24b9145c8357689",
+      "repo": "sinantufekci/agent-intern",
+      "url": "https://github.com/sinantufekci/agent-intern",
+      "name": "agent-intern",
+      "summary": "Give Claude Code or Antigravity an intern: drive Gemini (Antigravity), Codex, Copilot, Cursor and opencode as sub-agents, plus experimental Grok, Kimi and Muse. Text answers, image generation, real repo work and parallel swarms, on quota you already pay for, or free with opencode",
+      "type": "MCP",
+      "classification": "按上游主题自动分类，未人工核验",
+      "tags": [
+        "ai-agents",
+        "antigravity",
+        "claude",
+        "claude-code",
+        "codex",
+        "codex-cli",
+        "cursor",
+        "developer-tools"
+      ],
+      "license": "MIT",
+      "stars": 31,
+      "updatedAt": "2026-11-09T10:28:04Z",
+      "version": null,
+      "archived": false,
+      "status": "active",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
+      "provenance": [
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/sinantufekci/agent-intern",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
+        }
+      ],
+      "compatibility": [],
+      "security": "not-audited"
+    },
+    {
       "id": "r-b3ec29aafda6fbee",
       "repo": "aiybiz/atako-mcp",
       "url": "https://github.com/aiybiz/atako-mcp",
@@ -14474,23 +15125,24 @@
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/huggingface/smolagents",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
       "security": "not-audited",
-      "metadataCheckedAt": "2026-11-09T09:42:42.540Z",
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
       "metadataError": null,
-      "upstreamSyncedAt": "2026-11-09T09:42:42.540Z",
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
       "firstSeenAt": "2026-11-09T09:26:56.194Z",
-      "mcpServers": []
+      "mcpServers": [],
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z"
     },
     {
       "id": "r-b4fe2765fd87092d",
@@ -14603,18 +15255,18 @@
         "html"
       ],
       "license": "MIT",
-      "stars": 445111,
-      "updatedAt": "2026-11-09T09:41:13Z",
+      "stars": 445213,
+      "updatedAt": "2026-11-09T10:28:16Z",
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/morluto/rea",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
@@ -14857,28 +15509,29 @@
         "gemini"
       ],
       "license": "MIT",
-      "stars": 44682,
+      "stars": 44684,
       "updatedAt": "2026-11-08T00:33:40Z",
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/langchain-ai/langgraph",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
       "security": "not-audited",
-      "metadataCheckedAt": "2026-11-09T09:42:42.540Z",
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
       "metadataError": null,
-      "upstreamSyncedAt": "2026-11-09T09:42:42.540Z",
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
       "firstSeenAt": "2026-11-09T09:26:56.194Z",
-      "mcpServers": []
+      "mcpServers": [],
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z"
     },
     {
       "id": "r-b93be3afefa36137",
@@ -14958,28 +15611,29 @@
         "codex-skills"
       ],
       "license": "MIT",
-      "stars": 36992,
+      "stars": 36989,
       "updatedAt": "2026-11-05T10:43:36Z",
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/voltagent/awesome-agent-skills",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
       "security": "not-audited",
-      "metadataCheckedAt": "2026-11-09T09:42:42.540Z",
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
       "metadataError": null,
-      "upstreamSyncedAt": "2026-11-09T09:42:42.540Z",
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
       "firstSeenAt": "2026-11-09T09:26:56.194Z",
-      "mcpServers": []
+      "mcpServers": [],
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z"
     },
     {
       "id": "r-b9d2cea17ef65e31",
@@ -15024,6 +15678,43 @@
           ]
         }
       ]
+    },
+    {
+      "id": "r-bb0f377961241fe6",
+      "repo": "omnigent-ai/omnigent",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "name": "omnigent",
+      "summary": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+      "type": "Framework",
+      "classification": "按上游主题自动分类，未人工核验",
+      "tags": [
+        "agent-framework",
+        "agent-governance",
+        "agent-orchestration",
+        "agents",
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "claude-code"
+      ],
+      "license": "Apache-2.0",
+      "stars": 11296,
+      "updatedAt": "2026-11-09T10:25:54Z",
+      "version": null,
+      "archived": false,
+      "status": "active",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
+      "provenance": [
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/omnigent-ai/omnigent",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
+        }
+      ],
+      "compatibility": [],
+      "security": "not-audited"
     },
     {
       "id": "r-bb168dfe61133ffd",
@@ -15105,6 +15796,45 @@
           ]
         }
       ]
+    },
+    {
+      "id": "r-bbc2a4ba2cb2a9ef",
+      "repo": "geml-spec/geml",
+      "url": "https://github.com/geml-spec/geml",
+      "name": "geml",
+      "summary": "GEML is a lightweight markup language with uniform, addressable blocks and standard verbs. Easy for humans to read, safe for agents to mutate.",
+      "type": "MCP",
+      "classification": "按上游主题自动分类，未人工核验",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "call-graph",
+        "claude-code",
+        "claude-skills",
+        "cli",
+        "documentation",
+        "dsh-plugin"
+      ],
+      "license": "MIT",
+      "stars": 30,
+      "updatedAt": "2026-11-09T10:27:43Z",
+      "version": null,
+      "archived": false,
+      "status": "active",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
+      "provenance": [
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/geml-spec/geml",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
+        }
+      ],
+      "compatibility": [],
+      "security": "not-audited",
+      "firstSeenAt": "2026-11-09T10:28:14.892Z",
+      "mcpServers": []
     },
     {
       "id": "r-bd9018f761594e2c",
@@ -15302,17 +16032,17 @@
       ],
       "license": "MIT",
       "stars": 4284,
-      "updatedAt": "2026-11-09T09:41:17Z",
+      "updatedAt": "2026-11-09T10:27:10Z",
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/haris-musa/excel-mcp-server",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
@@ -15513,7 +16243,7 @@
         {
           "source": "Ecosyste.ms Awesome",
           "url": "https://awesome.ecosyste.ms/api/v1/lists/VoltAgent%2Fawesome-agent-skills/projects?per_page=25&page=1",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "CC-BY-SA-4.0",
           "via": "VoltAgent/awesome-agent-skills"
         }
@@ -15521,6 +16251,45 @@
       "compatibility": [],
       "security": "not-audited",
       "firstSeenAt": "2026-11-09T09:26:56.194Z",
+      "mcpServers": []
+    },
+    {
+      "id": "r-c16a9aca48bb12e5",
+      "repo": "siddhant-k-code/agent-trace",
+      "url": "https://github.com/siddhant-k-code/agent-trace",
+      "name": "agent-trace",
+      "summary": "Local evidence and replay for coding agents: replay what happened, see what the trace could not prove, and attach safe evidence to review. Claude Code, Codex, Copilot CLI, Gemini CLI, Cursor, MCP.",
+      "type": "MCP",
+      "classification": "按上游主题自动分类，未人工核验",
+      "tags": [
+        "agent-observability",
+        "agent-skills",
+        "agent-trace",
+        "agent-traces",
+        "agents",
+        "ai-agents",
+        "claude-code",
+        "cli"
+      ],
+      "license": "MIT",
+      "stars": 100,
+      "updatedAt": "2026-11-09T10:28:30Z",
+      "version": null,
+      "archived": false,
+      "status": "active",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
+      "provenance": [
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/siddhant-k-code/agent-trace",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
+        }
+      ],
+      "compatibility": [],
+      "security": "not-audited",
+      "firstSeenAt": "2026-11-09T10:28:14.892Z",
       "mcpServers": []
     },
     {
@@ -15586,18 +16355,18 @@
         "skills"
       ],
       "license": "NOASSERTION",
-      "stars": 84523,
-      "updatedAt": "2026-11-09T09:40:23Z",
+      "stars": 84526,
+      "updatedAt": "2026-11-09T10:19:39Z",
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/lobehub/lobehub",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
@@ -15669,28 +16438,29 @@
         "computer-use"
       ],
       "license": "MIT",
-      "stars": 120391,
-      "updatedAt": "2026-11-09T09:38:39Z",
+      "stars": 120394,
+      "updatedAt": "2026-11-09T09:48:24Z",
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/browser-use/browser-use",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
       "security": "not-audited",
-      "metadataCheckedAt": "2026-11-09T09:42:42.540Z",
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
       "metadataError": null,
-      "upstreamSyncedAt": "2026-11-09T09:42:42.540Z",
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
       "firstSeenAt": "2026-11-09T09:26:56.194Z",
-      "mcpServers": []
+      "mcpServers": [],
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z"
     },
     {
       "id": "r-c2dabc34d367c50a",
@@ -16041,27 +16811,28 @@
       ],
       "license": "MIT",
       "stars": 34344,
-      "updatedAt": "2026-11-06T23:25:36Z",
+      "updatedAt": "2026-11-09T10:18:02Z",
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/github/github-mcp-server",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
       "security": "not-audited",
-      "metadataCheckedAt": "2026-11-09T09:42:42.540Z",
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
       "metadataError": null,
-      "upstreamSyncedAt": "2026-11-09T09:42:42.540Z",
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
       "firstSeenAt": "2026-11-09T09:26:56.194Z",
-      "mcpServers": []
+      "mcpServers": [],
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z"
     },
     {
       "id": "r-c89b2336b9a530d7",
@@ -16280,6 +17051,43 @@
       "security": "not-audited"
     },
     {
+      "id": "r-cb3476d5521abd22",
+      "repo": "sky-valley/pi",
+      "url": "https://github.com/sky-valley/pi",
+      "name": "pi",
+      "summary": "A pure-Go port of pi (earendil-works/pi) — the pi-ai unified multi-provider LLM API, pi-agent-core agent loop, and pi-coding-agent, native in Go with no Node.js runtime. Anthropic/OpenAI/Google, 999-model catalog.",
+      "type": "Harness",
+      "classification": "按上游主题自动分类，未人工核验",
+      "tags": [
+        "agent-harness",
+        "ai-agent",
+        "ai-coding-agent",
+        "anthropic",
+        "claude",
+        "coding-agent",
+        "earendil",
+        "gemini"
+      ],
+      "license": "MIT",
+      "stars": 89,
+      "updatedAt": "2026-11-09T10:25:18Z",
+      "version": null,
+      "archived": false,
+      "status": "active",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
+      "provenance": [
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/sky-valley/pi",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
+        }
+      ],
+      "compatibility": [],
+      "security": "not-audited"
+    },
+    {
       "id": "r-cceb42b76bf2241d",
       "repo": "github/awesome-copilot",
       "url": "https://github.com/github/awesome-copilot",
@@ -16298,28 +17106,29 @@
         "prompt-engineering"
       ],
       "license": "MIT",
-      "stars": 40954,
+      "stars": 40955,
       "updatedAt": "2026-11-09T06:37:20Z",
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/github/awesome-copilot",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
       "security": "not-audited",
-      "metadataCheckedAt": "2026-11-09T09:42:42.540Z",
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
       "metadataError": null,
-      "upstreamSyncedAt": "2026-11-09T09:42:42.540Z",
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
       "firstSeenAt": "2026-11-09T09:26:56.194Z",
-      "mcpServers": []
+      "mcpServers": [],
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z"
     },
     {
       "id": "r-ccf4805e972d6819",
@@ -16519,23 +17328,24 @@
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/modelcontextprotocol/inspector",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
       "security": "not-audited",
-      "metadataCheckedAt": "2026-11-09T09:42:42.540Z",
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
       "metadataError": null,
-      "upstreamSyncedAt": "2026-11-09T09:42:42.540Z",
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
       "firstSeenAt": "2026-11-09T09:26:56.194Z",
-      "mcpServers": []
+      "mcpServers": [],
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z"
     },
     {
       "id": "r-cff3e4db23e02115",
@@ -17261,22 +18071,24 @@
       ],
       "license": "MIT",
       "stars": 309,
-      "updatedAt": "2026-11-09T09:25:25Z",
+      "updatedAt": "2026-11-09T10:17:27Z",
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:26:56.194Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/yangheng95/opencorvus",
-          "checkedAt": "2026-11-09T09:26:56.194Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
-      "security": "not-audited"
+      "security": "not-audited",
+      "firstSeenAt": "2026-11-09T09:26:56.194Z",
+      "mcpServers": []
     },
     {
       "id": "r-dd05657f383b735c",
@@ -17420,28 +18232,29 @@
       "classification": "按上游主题自动分类，未人工核验",
       "tags": [],
       "license": null,
-      "stars": 33745,
+      "stars": 33748,
       "updatedAt": "2026-10-28T19:17:28Z",
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/vercel-labs/agent-skills",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
       "security": "not-audited",
-      "metadataCheckedAt": "2026-11-09T09:42:42.540Z",
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
       "metadataError": null,
-      "upstreamSyncedAt": "2026-11-09T09:42:42.540Z",
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
       "firstSeenAt": "2026-11-09T09:26:56.194Z",
-      "mcpServers": []
+      "mcpServers": [],
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z"
     },
     {
       "id": "r-df050f84a87b2526",
@@ -17597,23 +18410,24 @@
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/modelcontextprotocol/servers",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
       "security": "not-audited",
-      "metadataCheckedAt": "2026-11-09T09:42:42.540Z",
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
       "metadataError": null,
-      "upstreamSyncedAt": "2026-11-09T09:42:42.540Z",
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
       "firstSeenAt": "2026-11-09T09:26:56.194Z",
-      "mcpServers": []
+      "mcpServers": [],
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z"
     },
     {
       "id": "r-e167f12a2229124b",
@@ -18218,22 +19032,24 @@
       ],
       "license": "MIT",
       "stars": 41,
-      "updatedAt": "2026-11-09T09:41:31Z",
+      "updatedAt": "2026-11-09T10:28:13Z",
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/modelplan/modelplan",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
-      "security": "not-audited"
+      "security": "not-audited",
+      "firstSeenAt": "2026-11-09T09:42:42.540Z",
+      "mcpServers": []
     },
     {
       "id": "r-e8aedf9caf306b66",
@@ -18925,23 +19741,24 @@
       "version": null,
       "archived": false,
       "status": "active",
-      "checkedAt": "2026-11-09T09:42:42.540Z",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
       "descriptionOrigin": "GitHub",
       "provenance": [
         {
           "source": "GitHub",
           "url": "https://api.github.com/repos/modelcontextprotocol/typescript-sdk",
-          "checkedAt": "2026-11-09T09:42:42.540Z",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
           "license": "GitHub API terms"
         }
       ],
       "compatibility": [],
       "security": "not-audited",
-      "metadataCheckedAt": "2026-11-09T09:42:42.540Z",
+      "metadataCheckedAt": "2026-11-09T10:28:14.892Z",
       "metadataError": null,
-      "upstreamSyncedAt": "2026-11-09T09:42:42.540Z",
+      "upstreamSyncedAt": "2026-11-09T10:28:14.892Z",
       "firstSeenAt": "2026-11-09T09:26:56.194Z",
-      "mcpServers": []
+      "mcpServers": [],
+      "metadataAttemptedAt": "2026-11-09T10:28:14.892Z"
     },
     {
       "id": "r-f281abdf49cd7d0c",
@@ -19047,6 +19864,43 @@
           ]
         }
       ]
+    },
+    {
+      "id": "r-f3dc8f1e4dfc473d",
+      "repo": "netresearch/agent-rules-skill",
+      "url": "https://github.com/netresearch/agent-rules-skill",
+      "name": "agent-rules-skill",
+      "summary": "Agent Skill for generating AGENTS.md files following the agents.md convention | Claude Code compatible",
+      "type": "Skill",
+      "classification": "按上游主题自动分类，未人工核验",
+      "tags": [
+        "agent-skills",
+        "agents-md",
+        "ai-agent",
+        "ai-agents",
+        "claude-code-skill",
+        "convention",
+        "documentation",
+        "open-standard"
+      ],
+      "license": "NOASSERTION",
+      "stars": 89,
+      "updatedAt": "2026-11-09T10:25:14Z",
+      "version": null,
+      "archived": false,
+      "status": "active",
+      "checkedAt": "2026-11-09T10:28:14.892Z",
+      "descriptionOrigin": "GitHub",
+      "provenance": [
+        {
+          "source": "GitHub",
+          "url": "https://api.github.com/repos/netresearch/agent-rules-skill",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "license": "GitHub API terms"
+        }
+      ],
+      "compatibility": [],
+      "security": "not-audited"
     },
     {
       "id": "r-f4baed976762f623",
@@ -20051,6 +20905,50 @@
     }
   ],
   "runs": [
+    {
+      "at": "2026-11-09T10:28:14.892Z",
+      "requests": 60,
+      "updates": 71,
+      "total": 453,
+      "sources": [
+        {
+          "name": "MCP Registry",
+          "status": "error",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "error": "fetch failed"
+        },
+        {
+          "name": "Ecosyste.ms Awesome",
+          "status": "ok",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "count": 3,
+          "page": 1,
+          "license": "CC-BY-SA-4.0"
+        },
+        {
+          "name": "GitHub Discovery",
+          "status": "ok",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "count": 32
+        },
+        {
+          "name": "Repository Metadata",
+          "status": "ok",
+          "checkedAt": "2026-11-09T10:28:14.892Z",
+          "count": 37,
+          "partialErrors": [
+            "1325ai/1325ai: HTTP 404; repos.ecosyste.ms",
+            "haf/glimt: HTTP 404; repos.ecosyste.ms",
+            "autonomad1/autonomad1: HTTP 404; repos.ecosyste.ms",
+            "autoblocksai/ctxl: HTTP 404; repos.ecosyste.ms",
+            "skvcool-rgb/boundaryai: HTTP 404; repos.ecosyste.ms",
+            "adiny/nomad-crypto-travel: HTTP 404; repos.ecosyste.ms",
+            "houstongolden/bamfaiapp: HTTP 404; repos.ecosyste.ms",
+            "abmeter/abmeter: HTTP 404; repos.ecosyste.ms"
+          ]
+        }
+      ]
+    },
     {
       "at": "2026-11-09T09:42:42.540Z",
       "requests": 60,
