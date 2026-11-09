@@ -1,0 +1,13 @@
+# NODAL Toolkit Index
+
+Small, dependency-free metadata indexer. No package installation, repository checkout, third-party code execution, model calls or HTML scraping.
+
+`node --test *.test.mjs` then `node sync.mjs`. Requires Node 22+. Optional `GITHUB_TOKEN` stays in the process environment and is sent only to api.github.com. Never put a token into catalog data.
+
+Sources: MCP Registry v0.1 (latest-version cursor scan, then updated_since with 10-minute overlap); Ecosyste.ms Awesome (VoltAgent list, one bounded page each run); GitHub REST topics (4 queries, 8 recent repositories each); repository facts (up to 45 repositories per run, GitHub first and Ecosyste.ms fallback). One run normally uses fewer than 100 GET requests. Pages and time windows are checkpointed. Existing records survive source failure. The public catalog is replaced atomically only after at least one source succeeds. All-source failure exits nonzero without replacing catalog. A 403/429 defers the source instead of busy-retrying. Transient network/5xx gets one bounded retry.
+
+`data/catalog.json` is the public feed. `data/state.json` contains opaque cursors, no credentials. Source failures and timestamps are in the last 30 run records; up to 32 daily star baselines are retained. Growth requires real samples at least 24 hours apart. First-run output is not a growth ranking. Initial MCP scanning is intentionally bounded to 200 records per run; full-registry coverage is not claimed. Awesome indexes may lag upstream lists. Descriptions remain upstream text, not AI endorsements; compatibility is unknown unless separately documented. Archived/deprecated/deleted states are retained; no recent commits is a signal, not proof a project is abandoned. No vulnerability scanner is claimed.
+
+Data attribution: Ecosyste.ms Awesome / Repos API data is **CC BY-SA 4.0**, https://awesome.ecosyste.ms and https://repos.ecosyste.ms . This derived catalog is distributed under the same terms, https://creativecommons.org/licenses/by-sa/4.0/ . GitHub and MCP publisher metadata link original sources and retain their rights. This catalog does not grant permission to redistribute third-party code or Skills. NODAL indexer source is MIT; a repository's code license is separate from index-data licensing.
+
+Scheduling: the independent public data repository runs the official GitHub Actions schedule daily at 03:37 UTC, plus manual dispatch. Public snapshots can be consumed without secrets. GitHub may delay schedules; public repositories can have schedules disabled after 60 days without activity. Successful data commits normally keep the repository active. Inspect the Actions page for a failed job; no external notification credentials are required.
