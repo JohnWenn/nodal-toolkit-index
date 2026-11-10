@@ -1,7 +1,7 @@
 {
   "mcp": {
     "startedAt": "2026-11-09T09:26:56.194Z",
-    "cursor": "ai.capitalcompany/capital-company:1.0.0"
+    "cursor": "ai.deepledger/mcp:1.0.6"
   },
   "awesomePage": 1
 }
