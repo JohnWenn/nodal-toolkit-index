@@ -1,7 +1,7 @@
 {
   "mcp": {
     "startedAt": "2026-11-09T09:26:56.194Z",
-    "cursor": "ai.smithery/demomagic-duckchain-mcp:1.13.1"
+    "cursor": "ai.superglue/netsuite:1.0.0"
   },
   "awesomePage": 1
 }
