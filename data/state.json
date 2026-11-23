@@ -1,7 +1,7 @@
 {
   "mcp": {
     "startedAt": "2026-11-09T09:26:56.194Z",
-    "cursor": "app.arbitron/mcp:1.3.0"
+    "cursor": "app.eggtimer/server-timers:1.0.0"
   },
   "awesomePage": 1
 }
